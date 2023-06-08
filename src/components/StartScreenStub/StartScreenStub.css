@@ -1,0 +1,25 @@
+.title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  display: block;
+  opacity: 0.4;
+  animation: cog-icon-spin infinite 20s linear;
+}
+
+@keyframes cog-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
